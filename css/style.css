@@ -14,13 +14,14 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-header{
-    /* background-color: aqua;
+/* header{
+    background-color: aqua;
     width: 1200px;
     height: 561px;
     display: flex;
-    justify-content: center; */
+    justify-content: center;
 }
+*/
 
 /* Nav Style */
 
@@ -57,3 +58,53 @@ nav{
     color: white;
 }
 
+/* Header Content Part */
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-part{
+    width: 582px;
+    height: 270px;
+}
+
+.text-part h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--nav_color);
+    padding-top: -10px;
+}
+
+.text-part p{
+    font-size: 16px;
+    font-weight: 600;
+    font-feature-settings: "liga" off;
+    width: 505px;
+    height: 61px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.text-part a{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    gap: 8px;
+    border-radius: 41px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+
+}
+
+.fa-arrow-right{
+    color: white;
+    background-color: #E02C6D;
+    margin-left: 10px;
+}
+
+.image-part{
+
+}
